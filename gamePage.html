@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>Game Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      html {
+        font-family: "Secular One", sans-serif;
+        letter-spacing: 1.5px;
+        background-color: rgb(249, 224, 170);
+        box-sizing: border-box;
+      }
       #topNav > div {
         float: left;
         border: thin solid black;
@@ -20,26 +32,27 @@
       #sideNav > div {
         border: solid thin black;
         padding: 5px;
+        box-sizing: border-box;
       }
       #content {
-        float: left;
+        float: right;
         width: 88%;
         margin-left: 5.5%;
         margin-right: 5.5%;
       }
       h1 {
         width: 88%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
         text-align: center;
         padding-top: 5%;
       }
-      #mainImg {
+      .mainImg {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
-        width: 50%;
+        width: 44%;
       }
       #consoleLogo {
         width: 128px;
@@ -50,6 +63,7 @@
         margin-right: 20%;
       }
       #gameDesc {
+        float: left;
         width: 50%;
         text-align: center;
         margin-left: 21%;
@@ -62,12 +76,11 @@
         margin-right: 11%;
         margin-bottom: 20px;
       }
-      #bottomData
-      img:first-child {
+      #firstSC {
         float: left;
         padding-right: 10px;
       }
-      #bottomData img:last-child {
+      #secondSC {
         float: left;
         padding-left: 10px;
         width: 20%;
@@ -97,7 +110,7 @@
       <div>Genre</div>
       <div>Age Rating</div>
     </div>
-    <h1>Game Title</h1>
+    <div><h1>Game Title</h1></div>
     <div id="content">
       <img
         id="consoleLogo"
@@ -105,7 +118,7 @@
         alt="Playstaion Logo"
       />
       <img
-        id="mainImg"
+        class="mainImg"
         src="images/EldenRingSC1.jpg"
         alt="Screenshot of Elden Ring"
       />
@@ -133,7 +146,11 @@
     </div>
 
     <div id="bottomData">
-      <img src="images/EldenRingSC2.jpg" alt="Screenshot of Elden Ring" />
+      <img
+        id="firstSC"
+        src="images/EldenRingSC2.jpg"
+        alt="Screenshot of Elden Ring"
+      />
       <p>
         Create your character in FromSoftware's refi ned action-RPG and defi ne
         your playstyle by experimenting with a wide variety of weapons, magical
@@ -142,8 +159,11 @@
         aid. Many options are at your disposal as you decide how to approach
         exploration and combat title.
       </p>
-      <img src="images/EldenRingSC3.jpg" alt="Screenshot of Elden Ring" />
+      <img
+        id="secondSC"
+        src="images/EldenRingSC3.jpg"
+        alt="Screenshot of Elden Ring"
+      />
     </div>
-    <div>Footer</div>
   </body>
 </html>

@@ -3,12 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Nintendo Switch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <style>
+    html {
+      font-family: "Secular One", sans-serif;
+      letter-spacing: 1.5px;
+      background-color: rgb(249, 224, 170);
+      box-sizing: border-box;
+    }
+    #title {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: darkslategray;
+      width: 100%;
+    }
+    div {
+      margin: 0%;
+    }
     #topNav > div {
       float: left;
       border: thin solid black;
-      width: 11%;
+      width: 14%;
       text-align: center;
       box-sizing: border-box;
       margin-bottom: 20px;
@@ -17,6 +39,10 @@
       width: 5.5%;
       float: left;
       text-align: center;
+    }
+    #sideNav img {
+      width: 100%;
+      height: 100%;
     }
     #sideNav > div {
       border: solid thin black;
@@ -30,7 +56,7 @@
     }
     .card {
       width: 45%;
-      height: 600px;
+      height: 650px;
       border: thin solid black;
       float: left;
       box-sizing: border-box;
@@ -58,25 +84,23 @@
     h1 {
       width: 88%;
       text-align: center;
+      height: 0%;
     }
   </style>
 
   <body>
+    <div id="title">Black Fox Games</div>
     <div id="topNav">
-      <div><a href="index.html">Home </a></div>
-      <div><a href="gameCardPS5.html">Playstaion 5 </a></div>
-      <div><a href="gameCardNinten.html">Nintendo Switch </a></div>
-      <div><a href="">Xbox Series X </a></div>
-      <div><a href="">Games </a></div>
-      <div><a href="">Feedback </a></div>
-      <div><a href="">Login </a></div>
-      <div><a href="">Search... </a></div>
-      <div><a href="">Shoping Cart Icon </a></div>
+      <div><a href="TermProjectHomepage.html">Home</a></div>
+      <div><a href="gameCardPS5.html">Playstaion 5</a></div>
+      <div><a href="gameCardNinten.html">Nintendo Switch</a></div>
+      <div><a href="gameCardXbox.html">Xbox Series X</a></div>
+      <div><a href="allGames.html">Games</a></div>
+      <div><a href="">Feedback</a></div>
+      <div><a href="">Shoping Cart Icon</a></div>
     </div>
     <div id="sideNav">
-      <div>Price</div>
-      <div>Genre</div>
-      <div>Age Rating</div>
+      <img src="images/black-fox-sign-vector-27105486.jpg" alt="icon" />
     </div>
     <h1>Nintendo Switch</h1>
     <div id="content">
@@ -179,17 +203,18 @@
       </div>
       <div class="card">
         <img
-          src="images/NinPokeBDCover.jpg"
-          alt="Pokemon Brilliant Diamond for the Nintendo Switch"
+          src="images/MonsterHunterNS.jpg"
+          alt="Monster Hunter Rise for the Nintendo Switch"
         />
-        <div><a href="gamePage.html">Pokemon Brilliant Diamond</a></div>
+        <div><a href="gamePage.html">Monster Hunter Rise</a></div>
         <div>
-          <div class="cardInfo">Price: $68.89</div>
-          <div class="cardInfo">Genre: E</div>
-          <div class="cardInfo">Age Rating: E</div>
+          <div class="cardInfo">Price: $50.00</div>
+          <div class="cardInfo">Genre: Action RPG</div>
+          <div class="cardInfo">Age Rating: T</div>
           <div class="cardInfo">
-            Experience the nostalgic story from the Pokémon diamond version game
-            in a reimagined adventure, Pokémon brilliant diamond.
+            Play solo, or join up to three other hunters in local or online
+            co-op play. The Nintendo Switch system also allows for hunting
+            anywhere, anytime and with anyone!
           </div>
         </div>
       </div>
@@ -210,5 +235,6 @@
         </div>
       </div>
     </div>
+    <div id="footer"></div>
   </body>
 </html>
