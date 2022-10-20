@@ -32,7 +32,8 @@ div {
   height: 100%;
 }
 #contactInfo {
-  border: thin solid black;
+  border: thick solid black;
+  background-color: rgb(108,179,181);
   float: left;
   width: 42.5%;
   margin-left: 9.5%;
@@ -43,7 +44,8 @@ div {
   box-sizing: border-box;
 }
 #feedbackSub {
-  border: thin solid black;
+  border: thick solid black;
+  background-color: rgb(108,179,181);
   float: left;
   width: 42.5%;
   text-align: center;
@@ -66,6 +68,14 @@ h1 {
   box-sizing: border-box;
   margin-top: 2%;
 }
+#nameAndLabel {
+  width: 100%;
+  float: left;
+}
+#emailAndLabel {
+  width: 100%;
+  float: left;
+}
 .nameBox {
   float: left;
   width: 45%;
@@ -79,6 +89,6 @@ h1 {
   margin-bottom: 1%;
 }
 
-#buttons input{
-    margin-top: 4%;
+#buttons input {
+  margin-top: 4%;
 }

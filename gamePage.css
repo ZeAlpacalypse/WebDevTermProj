@@ -52,45 +52,49 @@ html {
   .mainImg {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 30%;
     margin-bottom: 40px;
     width: 44%;
   }
   #consoleLogo {
     width: 128px;
     float: right;
+    margin-left: 0%;
   }
   #saleData {
     float: right;
     margin-right: 20%;
+    margin-bottom: 4%;
+    border: solid thin black ;
+    padding: 1%;
   }
   #gameDesc {
     float: left;
-    width: 50%;
-    text-align: center;
-    margin-left: 21%;
+    width: 45%;
+    text-align: left;
+    margin-left: 5%;
     margin-bottom: 40px;
   }
   #bottomData {
     float: left;
     width: 88%;
-    margin-left: 11%;
-    margin-right: 11%;
+
     margin-bottom: 20px;
   }
   #firstSC {
-    float: left;
-    padding-right: 10px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 5%;
   }
   #secondSC {
     float: left;
-    padding-left: 10px;
-    width: 20%;
+    margin-left: 5%;
+    width: 50%;
   }
   #bottomData > p {
     float: left;
     width: 40%;
-    padding: 20px;
+    margin-left: 5%;
   }
   #title {
     text-align: center;
@@ -99,3 +103,41 @@ html {
     color: darkslategray;
     width: 100%;
   }
+  #container {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid thick black;
+    background-color: rgb(108, 179, 181);
+    overflow: auto;
+    padding: 4%;
+  }
+  #footer {
+    width: 98%;
+  float: left;
+    border-top: solid thin black;
+    margin-top: 2%;
+    padding: 1%;
+  }
+  #footer > div {
+    font-size: 10px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+   
+  }
+  #footer div:first-child {
+    float: left;
+  }
+  #footer div:last-child {
+    float: right;
+  }
+  .center {
+    float: left;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  

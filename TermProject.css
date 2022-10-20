@@ -23,6 +23,7 @@ div,p,a {
   width: 14%;
   text-align: center;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 #sideNav {
   width: 7%;
@@ -37,16 +38,19 @@ div,p,a {
 #homepagecontent {
   width: 70%;
   float: left;
+  margin-bottom: 1em;
 }
 #featured {
   margin-left: 24%;
   margin-top: 2%;
+ 
 }
 #featuredimg {
   width: 40em;
   height: 20em;
-  
+  border: thick black solid;
 }
+
 .headers {
   font-size: 24px;
   color: darkslategray;
@@ -63,9 +67,11 @@ img {
 #card {
   border: solid thin black;
   margin: 1em;
-  width: 16em;
-  height: 13em;
+  width: 15em;
+  height: 12em;
   float: left;
+  text-align: center;
+  background-color: rgb(108, 179, 181);
 }
  .cardimg{
   height: 6.125em;
@@ -78,11 +84,11 @@ img {
 .content {
   width: 94%;
   float: left;
-  margin-left: 5.5%;
+  margin-left: 4.5%;
 }
 #footer {
   width: 100%;
-  float: inline-end;
+float: left;
   border-top: solid thin black;
 }
 #footer > div {
@@ -91,6 +97,7 @@ img {
   margin-top: 0%;
   margin-bottom: 0%;
   padding-bottom: 0%;
+ 
 }
 #footer div:first-child {
   float: left;
