@@ -73,6 +73,8 @@ html {
     margin-bottom: 1%;
     border: solid thin black ;
     padding: 1%;
+    background-color: lightgreen;
+    border-radius: 20px;
   }
   #gameDesc {
     float: left;
@@ -89,10 +91,12 @@ html {
   }
   #firstSC {
     float: right;
-    margin-right: 15%;
-    margin-top: 1%;
+    margin-right: 17.5%;
+    margin-left: auto;
+    margin-top: 10%;
     width: 30%;
     margin-bottom: 1%;
+    display: block;
   }
   #secondSC {
     float: left;
@@ -118,6 +122,7 @@ html {
     background-color: rgb(108, 179, 181);
     overflow: auto;
     padding: 4%;
+    margin-top: 10%;
   }
   #footer {
     width: 100%;
@@ -148,6 +153,4 @@ html {
     width: 32.5%;
     text-align: center;
   }
-  p {
-    clear: right;
-  }
+ 
