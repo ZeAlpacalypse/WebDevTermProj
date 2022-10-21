@@ -116,11 +116,10 @@ html {
     padding: 4%;
   }
   #footer {
-    width: 98%;
+    width: 100%;
   float: left;
     border-top: solid thin black;
     margin-top: 2%;
-    padding: 1%;
   }
   #footer > div {
     font-size: 10px;
@@ -128,19 +127,20 @@ html {
     margin-top: 0%;
     margin-bottom: 0%;
     padding-bottom: 0%;
-   
+    color: darkslategray;
   }
   #footer div:first-child {
     float: left;
+    width: 32.5%;
+    text-align: left;
   }
   #footer div:last-child {
     float: right;
+    width: 32.5%;
+    text-align: right;
   }
-  .center {
+  #footer div:nth-child(2){
     float: left;
+    width: 32.5%;
     text-align: center;
-    margin-left: 40%;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
   }
