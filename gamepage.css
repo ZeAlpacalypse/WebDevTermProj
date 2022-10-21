@@ -48,6 +48,8 @@ html {
     margin-right: 5.5%;
     text-align: center;
     padding-top: 5%;
+    font-size: 24px;
+    color: darkslategray;
   }
   .mainImg {
     display: block;
@@ -64,13 +66,13 @@ html {
   #saleData {
     float: right;
     margin-right: 20%;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
     border: solid thin black ;
     padding: 1%;
   }
   #gameDesc {
     float: left;
-    width: 45%;
+    width: 39%;
     text-align: left;
     margin-left: 5%;
     margin-bottom: 40px;
@@ -84,7 +86,9 @@ html {
   #firstSC {
     float: right;
     margin-right: 15%;
-    margin-top: 5%;
+    margin-top: 1%;
+    width: 30%;
+    margin-bottom: 1%;
   }
   #secondSC {
     float: left;
@@ -110,4 +114,33 @@ html {
     background-color: rgb(108, 179, 181);
     overflow: auto;
     padding: 4%;
+  }
+  #footer {
+    width: 98%;
+  float: left;
+    border-top: solid thin black;
+    margin-top: 2%;
+    padding: 1%;
+  }
+  #footer > div {
+    font-size: 10px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+   
+  }
+  #footer div:first-child {
+    float: left;
+  }
+  #footer div:last-child {
+    float: right;
+  }
+  .center {
+    float: left;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
