@@ -1,18 +1,21 @@
 html {
     font-family: "Secular One", sans-serif;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.09375em;
     background-color: rgb(249, 224, 170);
     box-sizing: border-box;
   }
   #title {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
     color: darkslategray;
     width: 100%;
   }
   div {
     margin: 0%;
+  }
+  #topNav {
+    overflow: hidden;
   }
   #topNav > div {
     float: left;
@@ -21,20 +24,19 @@ html {
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 20px;
+    overflow: hidden;
   }
   #sideNav {
     width: 5.5%;
     float: left;
     text-align: center;
+    clear: both;
+    margin-bottom: 1%;
   }
   #sideNav img {
-    width: 100%;
-    height: 100%;
-  }
-  #sideNav > div {
-    border: solid thin black;
-    padding: 5px;
-    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    clear: both;
   }
   #content {
     float: right;
@@ -44,12 +46,14 @@ html {
   }
   h1 {
     width: 88%;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
     text-align: center;
-    padding-top: 5%;
-    font-size: 24px;
+    height: 0%;
+  }
+  .headers {
+    font-size: 1.5em;
     color: darkslategray;
+    text-align: center;
+    float: left;
   }
   .mainImg {
     display: block;
@@ -143,4 +147,7 @@ html {
     float: left;
     width: 32.5%;
     text-align: center;
+  }
+  p {
+    clear: right;
   }
